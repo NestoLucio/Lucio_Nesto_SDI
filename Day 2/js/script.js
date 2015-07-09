@@ -33,3 +33,25 @@ var a =2;
 
 //Send variable value to the console so we can see it.
 console.log(a)
+
+//Change the value of a variable.
+a=6;
+console.log(a);
+
+//Add 3 to the current value of a.
+a=a+3;
+console.log(a);
+
+//Create another variable
+var b;
+b=a+3;
+console.log(a);
+console.log(b);
+
+//Simple math.
+//Find our age.
+
+//Create variable for year born.
+var yearBorn = 1988;
+var age = 2015 - yearBorn;
+console.log(age);
