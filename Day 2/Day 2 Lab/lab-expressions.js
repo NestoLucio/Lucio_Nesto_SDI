@@ -58,7 +58,15 @@ console.log("you have spent a total of"+" "+total+" "+"on groceries over 5 weeks
 var originalPrice =25;
 var discount =.10;
 var chicken ="lean chicken breast"
-var salesTax =.45
+var salesTax =.07;
+
+//Price of items with tax
+
+var withoutTax =22.5;
+var withTax =24.07;
+//end of tax and non-tax price.
+
+console.log("your"+" "+chicken+" "+"was originally $"+originalPrice+" "+ ",but after a"+" "+discount+" "+",it is now $"+withoutTax+" "+",and $"+withTax+" "+"with tax.");
 
 
 
