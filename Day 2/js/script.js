@@ -24,7 +24,7 @@ console.log("This is the console. Learn to love it!");
 //Start with the keyword var.
 var whatever; //Declaration of a variable.
 //Define the variable.
-whatever=45;
+whatever = 45;
 //Create a storage container = value;
 
 
@@ -46,7 +46,7 @@ console.log(a);
 var b;
 b=a+3;
 console.log(a);
-console.log(b);
+console.log("The value of b is "+b);
 
 //Simple math.
 //Find our age.
@@ -60,8 +60,8 @@ console.log(age);
 //+,-,*,/
 
 //Find the area of a triangle.
-var width =4;
-var height =5;
+var width = 4;
+var height = 5;
 
 var areaTriangle = width*height/2;
 console.log(areaTriangle);
@@ -110,9 +110,9 @@ console.log(tester);
 
 //Find quiz averages.
 
-var quiz1 =87;
-var quiz2 =100;
-var quiz3 =70;
+var quiz1 = 87;
+var quiz2 = 100;
+var quiz3 = 70;
 
 //Add up all of them and divide by the number of them.
 var avarge = (quiz1+quiz2+quiz3) /3;
@@ -139,3 +139,24 @@ var yes = true;
 var nope = "false";
 //A string of "false" is not equal to a Boolean of false.
 var notCorrect = false;
+
+//Simple math problem.
+//Find the perimeter of a triangle.
+var side1 = 7;
+var length1 = 6;
+var perimeter = (side1 *2) + (length1*2);
+console.log(perimeter);
+//Are the parenthesis needed?
+
+//Concatenation - Combining text.
+
+var firstName = "kermit";
+var lastName = "The Frog";
+var fullName = firstName +" "+ lastName;
+console.log(fullName+" is the color "+kermit);
+
+//Anytime you use + with text - it changes EVERYTHING to text.
+var d = "6";
+var e = 7;
+var combine = d+e;
+console.log(combine);
