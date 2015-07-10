@@ -75,5 +75,3 @@ console.log("Your"+" "+chicken+" "+"was originally $"+originalPrice+" "+"but aft
 
 
 //end of tax and non-tax price.
-
-\
