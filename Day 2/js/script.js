@@ -28,13 +28,13 @@ whatever=45;
 //Create a storage container = value;
 
 
-//Declare and define a variable.
+// Declare and define a variable.
 var a =2;
 
-//Send variable value to the console so we can see it.
+// Send variable value to the console so we can see it.
 console.log(a)
 
-//Change the value of a variable.
+// Change the value of a variable.
 a=6;
 console.log(a);
 
@@ -55,3 +55,51 @@ console.log(b);
 var yearBorn = 1988;
 var age = 2015 - yearBorn;
 console.log(age);
+
+//MATH!!
+//+,-,*,/
+
+//Find the area of a triangle.
+var width =4;
+var height =5;
+
+var areaTriangle = width*height/2;
+console.log(areaTriangle);
+
+//Modulo - %
+//Gives you the remainder.
+
+var remainder = 31%3;
+console.log(remainder);
+
+//Find out if even or odd.
+//Modulo by 2.
+
+var evenOrOdd = 66%2;
+console.log(evenOrOdd);
+
+//0 means even.
+//1 means odd.
+
+//Assignment Operators
+
+/*
+= Assignment Operator - "is"
+++ Adds 1 to the current value of the variable.
+-- Subtracts 1 from the current value.
++= Addition assignment operator - adds the value after it.
+-= Subtraction minus operator - subtracts the value after it.
+/= Division operator - divides by the current value.
+*= Multiplication assignment - multiplies the following by the current number.
+
+ */
+
+var tester = 5;
+tester ++; // tester = tester+1;
+tester --; // tester = tester-1;
+tester +=3; //tester = tester+3;
+tester -=6; //tester = tester-6;
+tester /=3; //tester = tester/3;
+tester *=6; //tester = tester*6
+
+console.log(tester);
