@@ -56,19 +56,24 @@ console.log("you have spent a total of"+" "+total+" "+"on groceries over 5 weeks
 //Discounts
 
 var originalPrice =25;
-var discount =.10;
-var chicken ="lean chicken breast"
-var salesTax =.07;
+var discount =10;
+var discountPercentage = discount /100;
+var chicken ="lean chicken breast";
+var salesTax =.70;
 
-//Price of items with tax
 
-var withoutTax =22.5;
-var withTax =24.07;
+//Calculations items.
+//With tax, without tax, discount + tax, discounts(no tax).
+
+var withTax =originalPrice + salesTax;
+var withoutTax =originalPrice;
+var withDiscountNoTax = originalPrice - (originalPrice * discountPercentage);
+var withDiscountWithTax = originalPrice -(originalPrice * discountPercentage) * salesTax;
+
+
+console.log("Your"+" "+chicken+" "+"was originally $"+originalPrice+" "+"but after a "+ discount +"% discount, it is now $"+ withDiscountNoTax+" "+"without tax, and $"+withDiscountWithTax+" "+"with tax.");
+
+
 //end of tax and non-tax price.
 
-console.log("your"+" "+chicken+" "+"was originally $"+originalPrice+" "+ ",but after a"+" "+discount+" "+",it is now $"+withoutTax+" "+",and $"+withTax+" "+"with tax.");
-
-
-
-
-
+\
