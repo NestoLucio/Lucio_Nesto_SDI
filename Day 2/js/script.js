@@ -103,3 +103,39 @@ tester /=3; //tester = tester/3;
 tester *=6; //tester = tester*6
 
 console.log(tester);
+
+//Orders of Operation.
+//PEMDAS - Pleas Excuse My Dear Aunt Sally.
+//Partesis, Exponents, Multiply, Devide, Add, Subtract
+
+//Find quiz averages.
+
+var quiz1 =87;
+var quiz2 =100;
+var quiz3 =70;
+
+//Add up all of them and divide by the number of them.
+var avarge = (quiz1+quiz2+quiz3) /3;
+console.log(avarge);
+
+//String.
+//Must have matching " or '.
+//Needed to separate variable names from standard text.
+
+var kermit = "light green";
+var frogName = "kermit";
+console.log(frogName);
+
+//Double of single quotes?
+//Escape character.
+var phrase = 'I don\'t know.\nYou never know!';
+console.log(phrase);
+
+// \ New line character.
+
+//Booleans - true or false.
+//Light switches of programming.
+var yes = true;
+var nope = "false";
+//A string of "false" is not equal to a Boolean of false.
+var notCorrect = false;
