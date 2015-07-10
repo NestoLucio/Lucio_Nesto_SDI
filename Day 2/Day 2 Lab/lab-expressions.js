@@ -20,8 +20,12 @@ var amountOfPizzas =5;
 //Calculate the number of slice per person.
 var slicesPerPerson = (slices*amountOfPizzas/people);
 
-console.log(slicesPerPerson);
+console.log("Each person ate"+" "+slicesPerPerson);
 
+//Number of slices sparky gets to eat.
+//Part II of problem.
 
+var remainder = 40 % 16;
 
+console.log("Sparky the Dog ate"+" "+remainder +" "+"slices.");
 
