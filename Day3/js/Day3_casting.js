@@ -12,7 +12,7 @@ var stringVar ="6";
 var results = 7 + stringVar;
 console.log(results);
 
-//Number() - teats what is inside of () like a number, if possible.
+//Number() - treats what is inside of () like a number, if possible.
 
 var castingResults = 7 + Number(stringVar);
 console.log (castingResults)
