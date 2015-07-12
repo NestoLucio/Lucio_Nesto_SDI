@@ -8,7 +8,7 @@ Nesto Lucio
 //alert("testing");
 
 //Ask the user for their information.
-var userImput = prompt("Enter your year of birth:");
+var userInput = prompt("Enter your year of birth:");
 console.log(userImput);
 
 var age = 2015-userImput;
