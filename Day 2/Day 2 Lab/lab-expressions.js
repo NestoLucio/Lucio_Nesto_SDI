@@ -6,7 +6,7 @@ Created by Nesto Lucio on 7/9/2015.
 
 //alert("js script attached");
 
-alert("SID Lab Assignnment - Lab Expressions");
+//alert("SID Lab Assignnment - Lab Expressions");
 
 //Console logging information.
 console.log("Thus be the console.");
