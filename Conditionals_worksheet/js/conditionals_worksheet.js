@@ -14,7 +14,7 @@
 // and they need to determine whether they should stop now for gas or not.
 
 var gas = 45;
-var gaugeReading = 90;
+var gaugeReading = 50;
 var tankCapacity = 80;
 var currentGasGallons = 75;
 
@@ -64,19 +64,19 @@ console.log("you have a " + gradeAverage + "%, which means you have earned a A i
  */
 
 //Movie details
-var movieTime = 4;
+var movieTime = 2;
 var movieTicket = 12;
 var discount = 7;
 
-//Customer Details.
-var ageOfCostumerKid = 9;
-var ageOfCostumerSenior = 55;
+//Customer age Details.
+var customerAge = 14;
 
 //IF
 
-if (ageOfCostumerKid <= 10){
- console.log("The ticket price is $" +  (movieTicket - discount));
-
+if (customerAge >= 55 || customerAge <=10){
+ console.log("Movie ticket is $" + (movieTicket - discount));
+} else if (movieTime <= 5 && movieTime >=3){
+ console.log("Movie ticket is $" + (movieTicket - discount));
 } else {
- console.log("The ticket price is $" +  movieTicket);
+ console.log("Movie Ticket is $" + movieTicket);
 }
