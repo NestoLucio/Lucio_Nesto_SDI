@@ -63,4 +63,20 @@ console.log("you have a " + gradeAverage + "%, which means you have earned a A i
  Determine which of the two prices the customer is eligible for.
  */
 
+//Movie details
+var movieTime = 4;
+var movieTicket = 12;
+var discount = 7;
 
+//Customer Details.
+var ageOfCostumerKid = 9;
+var ageOfCostumerSenior = 55;
+
+//IF
+
+if (ageOfCostumerKid <= 10){
+ console.log("The ticket price is $" +  (movieTicket - discount));
+
+} else {
+ console.log("The ticket price is $" +  movieTicket);
+}
