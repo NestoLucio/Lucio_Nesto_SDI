@@ -19,12 +19,10 @@ var windows = 500;
 
 //User Prompt
 
-userAge = prompt("Are you 18 or older?");
+userAge = prompt("How old are you?");
 if (isNaN(userAge) || userAge === "" ){
  //re-prompt user
  userAge = prompt("Please type in numeric number");
-} else if (userAge <= 18){
- alert ("Sorry, You're not old enough to use this platform.");
 }
 
 userInput = prompt("are you looking for a Windows or Apple computer?");
@@ -41,8 +39,14 @@ userInputPrice =  prompt ("What is your current computer budget?");
    }
  }
 
-if (userInput === "apple" && apple >= 1300){
+if (userInput === "apple" && userInputPrice >= apple){
  console.log("Congrats you can buy an Apple Computer");
-} else if (userInput === "windows" && windows >= 300 ){
- console.log("Congrats, you can buy a windows computer.");
+} else if (userInput === "apple" && userInputPrice < apple ){
+ console.log("Sorry, you need $" + (apple - userInputPrice) + " to buy the Apple, How about a windows?");
+}
+
+if (userInput === "windows" && userInput>=windows){
+ console.log("Congrats you can buy a windows Computer");
+} else if (userInput === "windows" && userInputPrice < windows){
+ console.log("you need $" + (windows - userInputPrice) + "keep saving up, one day you'll owe something.");
 }
