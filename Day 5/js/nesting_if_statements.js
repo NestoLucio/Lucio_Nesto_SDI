@@ -57,6 +57,3 @@ console.log(kids.toLowerCase());
   console.log("Go see Ant-Man");
  }
 }
-
-
-
