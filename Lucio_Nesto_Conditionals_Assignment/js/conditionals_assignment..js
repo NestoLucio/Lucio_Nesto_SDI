@@ -14,16 +14,13 @@
 var apple = 1300;
 var windows = 500;
 
-//If the user is wanting an apple computer. ask for amount budget amount
-//If budget amount is not enough, suggest a Windows computer.
 
 //User Prompt
 
 userAge = prompt("How old are you?");
-if (isNaN(userAge) || userAge === "" ){
- //re-prompt user
- userAge = prompt("Please type in numeric number");
-}
+if (userAge<18)
+ { (userAge<18)? alert("You are not old enough to use this platform."): alert("Let's continue");
+} else {
 
 userInput = prompt("are you looking for a Windows or Apple computer?");
  if (userInput.toLowerCase() != "apple" && userInput.toLowerCase() != "windows" ){
@@ -38,15 +35,19 @@ userInputPrice =  prompt ("What is your current computer budget?");
     userInputPrice = prompt("Please type in only numeric characters");
    }
  }
-
+//Starting If - if user selects apple and has enough money.
+ //console.log("congrats").
 if (userInput === "apple" && userInputPrice >= apple){
  console.log("Congrats you can buy an Apple Computer");
 } else if (userInput === "apple" && userInputPrice < apple ){
+ //User does not have enough to buy an Apple compute
  console.log("Sorry, you need $" + (apple - userInputPrice) + " to buy the Apple, How about a windows?");
-}
-
-if (userInput === "windows" && userInput>=windows){
+} else if (userInput === "windows" && userInputPrice >= windows){
+ //User has enough to buy apple computer.
  console.log("Congrats you can buy a windows Computer");
 } else if (userInput === "windows" && userInputPrice < windows){
- console.log("you need $" + (windows - userInputPrice) + "keep saving up, one day you'll owe something.");
+ //User does not have enough to buy computer.
+ console.log("you need $" + (windows - userInputPrice) + " keep saving up..Maybe one day you'll own something.");
+}
+
 }
