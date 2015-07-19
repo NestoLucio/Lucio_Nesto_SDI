@@ -4,6 +4,7 @@
     <list default="true" id="ede266bf-6e8e-4575-a348-71d6ea126519" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/Conditionals_worksheet/Conditionals_worksheet.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Conditionals_worksheet/js/conditionals_worksheet.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 6/js/day6_while-loops.js" afterPath="$PROJECT_DIR$/Day 6/js/day6_while-loops.js" />
     </list>
     <ignored path="Lucio_Nesto_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,8 +48,8 @@
       <file leaf-file-name="day6_while-loops.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day 6/day6_while-loops.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.375">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state vertical-scroll-proportion="-1.875">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -57,11 +58,9 @@
       <file leaf-file-name="day6_while-loops.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day 6/js/day6_while-loops.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14112903">
-              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.70564514">
+              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -522,19 +521,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day 6/day6_while-loops.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state vertical-scroll-proportion="-1.875">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day 6/js/day6_while-loops.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14112903">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.70564514">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
