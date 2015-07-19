@@ -4,6 +4,7 @@
     <list default="true" id="ede266bf-6e8e-4575-a348-71d6ea126519" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/Conditionals_worksheet/Conditionals_worksheet.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Conditionals_worksheet/js/conditionals_worksheet.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 6/js/day6_for-loops.js" afterPath="$PROJECT_DIR$/Day 6/js/day6_for-loops.js" />
     </list>
     <ignored path="Lucio_Nesto_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,9 +68,11 @@
       <file leaf-file-name="day6_for-loops.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day 6/js/day6_for-loops.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.50209206">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,6 +128,7 @@
         <option value="$PROJECT_DIR$/Day 6/day6_while-loops.html" />
         <option value="$PROJECT_DIR$/Day 6/js/day6_while-loops.js" />
         <option value="$PROJECT_DIR$/Day 6/day6_for-loops.html" />
+        <option value="$PROJECT_DIR$/Day 6/js/day6_for-loops.js" />
       </list>
     </option>
   </component>
@@ -565,9 +569,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day 6/js/day6_for-loops.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.50209206">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
