@@ -21,7 +21,7 @@ var numBites = 4;
 
 //What is the time line.
 var days=8;
-/*
+/*1
 for (var i=1; i<=days; i++){
  //How many people get infected every day
  var infectedPeople = numZombies*numBites;
