@@ -26,11 +26,11 @@ for(var bottles=numBeers; bottles>0; bottles--) {
  //verify that the loop works.
  //console.log(bottles);
  if (bottles===2) {
-  console.log(numBeers+ " bottles of beer on the wall. " + numBeers + " of bottles beer. You take one down and pass it around." + (numBeers - 1) + " Bottle of beer on the wall");
- }else if(numBeers===1){
-  console.log(numBeers + " bottle of beer on the wall. " + numBeers + " of bottle beer. You take one down and pass it around." +  " The End.");
+  console.log(bottles + " bottles of beer on the wall. " + bottles + " of bottles beer. You take one down and pass it around." + (bottles - 1) + " Bottle of beer on the wall");
+ }else if(bottles===1){
+  console.log(bottles + " bottle of beer on the wall. " + bottles + " of bottle beer. You take one down and pass it around." +  " The End.");
 
  }else{
-  console.log(numBeers + " bottles of beer on the wall. " + numBeers + " of bottles beer. You take one down and pass it around." + (numBeers - 1) + " Bottles of beer on the wall");
+  console.log(bottles + " bottles of beer on the wall. " + bottles + " of bottles beer. You take one down and pass it around." + (bottles - 1) + " Bottles of beer on the wall");
  }
 }
