@@ -10,21 +10,44 @@
 
 //Create prompts based on the Justice League.
 
-var avengers =["Iron Man","The Hulk","Captain America","Black Widow","Hawkeye"];
-var fightAvengers = prompt("Choose what member from the Justice League you will be fighting. " + avengers);
+
+
+var avengers =["iron man","the hulk","captain america","black widow","hawkeye"];
+var fightAvengers = prompt("Choose what member from the Avengers you will be fighting. " + avengers);
+var heroCount = 0;
+var whichHero = 0;
 //console.log(fightAvengers);
 
+
 //Validate user prompt.
-/*while (fightAvengers.toLowerCase() || fightAvenger.toLowerCase()===""){
+for(var j = 0; j < avengers.length; j++){
+ if(fightAvengers.toLowerCase() === avengers[j])
+ {
+   heroCount++;
+  whichHero = j;
+ }
+}
+//console.log(heroCount);
+
+while(heroCount === 0) {
+ j = 0;
 //re-prompt user
- fightAvengers = prompt("Villain DataBase only has information on The Avengers Listed Below " + "Which Avenger will you be bringing down? "+ avengers);
+ fightAvengers = prompt("Villain DataBase only has information on The Avengers Listed Below " + "Which Avenger will you be bringing down? " + avengers);
+ for (var j = 0; j < avengers.length; j++) {
+  if (fightAvengers.toLowerCase() === avengers[j]) {
+   heroCount++;
+   whichHero = j;
+  }
+ }
 }
- */
-
-//Create villain weakness.
-//Cycle through Avengers and show weakness.
-
-for (var i=0; i<avengers.length; i++){
- //Set up text hero text strings and call-out weakness.
- 
+//console.log(avengers[whichHero]);
+//Set up hero weaknesses.
+if(avengers[whichHero]==="iron man"){
+ console.log(avengers[whichHero] +" Weakness:\n EMP Pulse, Alcohol, Kidnapping Pepper Pots");
+}else if(avengers[whichHero]==="the hulk"){
+ console.log("If you're fighting The Hulk...Pray for a miracle.")
+}else {
+ console.log(avengers[whichHero] + " Weakness:\njust a human. You just have to aim right.");
 }
+//Console log out
+console.log("Good luck with your fight....Hail Hydra?");
