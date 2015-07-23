@@ -20,8 +20,8 @@ var height = 20;
 
 function calcArea(){
         //Create variables
-        var width = 10;
-        var height = 20;
+        //width = 10;
+        //height = 20;
         //Calculate the area
         var area = width * height;
 
@@ -31,4 +31,7 @@ function calcArea(){
 
 //Lets call the function
 calcArea();
+//Change the variable
+width=50;
+height=10;
 calcArea();
