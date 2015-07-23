@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ede266bf-6e8e-4575-a348-71d6ea126519" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 8/js/day_8_arguements_parameters.js" afterPath="$PROJECT_DIR$/Day 8/js/day_8_arguements_parameters.js" />
-    </list>
+    <list default="true" id="ede266bf-6e8e-4575-a348-71d6ea126519" name="Default" comment="" />
     <ignored path="Lucio_Nesto_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,16 +36,38 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-20.703703">
               <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding>
+                <marker date="1437689991000" expanded="true" signature="571:1122" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day_8_arguements_parameters.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day 8/js/day_8_arguements_parameters.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.0">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="day_8_arguements_parameters.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day 8/js/day_8_arguements_parameters.js">
+      <file leaf-file-name="day8_returns.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day 8/js/day8_returns.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.528914">
-              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day8_returns.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day 8/day8_returns.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.16853933">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -149,6 +169,7 @@
         <option value="$PROJECT_DIR$/Day 8/js/day_8_function_scope.js" />
         <option value="$PROJECT_DIR$/Day 8/day_8_arguments_parameters.html" />
         <option value="$PROJECT_DIR$/Day 8/js/day_8_arguements_parameters.js" />
+        <option value="$PROJECT_DIR$/Day 8/day8_returns.html" />
       </list>
     </option>
   </component>
@@ -352,20 +373,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day3/js/Day3_casting.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lucio_Nesto_Expressions_Assignment/js/expressions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lucio_Nesto_Expressions_Assignment/expressions.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -720,14 +727,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.703703">
           <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1437689991000" expanded="true" signature="571:1122" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day 8/js/day_8_arguements_parameters.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.528914">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 8/js/day8_returns.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 8/day8_returns.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16853933">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
