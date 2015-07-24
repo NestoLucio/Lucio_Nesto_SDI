@@ -17,9 +17,20 @@ function calcCircle(r){
         var diameter =50;
         var circumTotal = (2*Math.PI) * r;
         //test variables.
-        console.log("The circumference of the circle is " + circumTotal);
+        //console.log("The circumference of the circle is " + circumTotal);
+
+        //Return circumTotal
+        return circumTotal;
+
 }
 
+//Create catch all - return
+var result = calcCircle(80);
+var result2 = calcCircle(140);
 //Call out function
 //And give it an argument.
-calcCircle(50);
+//calcCircle(50);
+console.log("The circumference of the circle is " + result);
+//Test second return
+console.log("The circumference of the circle is " + result2);
+
