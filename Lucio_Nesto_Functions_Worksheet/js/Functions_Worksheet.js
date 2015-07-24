@@ -34,3 +34,11 @@ console.log("The circumference of the circle is " + result);
 //Test second return
 console.log("The circumference of the circle is " + result2);
 
+//It takes 8.666666667 bee stings per pound to kill an animal.
+//Calculate how many bee stings are needed to kill an animal in a function
+
+function stings(pounds){
+        //calculate the amount of stings it takes to kill an animal
+       
+
+}
