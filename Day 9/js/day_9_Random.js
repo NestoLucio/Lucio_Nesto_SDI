@@ -39,6 +39,26 @@ var max = prompt("We are going to find a random number between teo values\nWhat 
 }
 //Number cast or parseInt
 max=Number(max);
+//Test to check values of Max na Min
+console.log("The min value is " +min+ " The Max value is " + max);
 
-console.log(max + " and " + min);
+//15 random nunbers to print
+for (var i = 0; i<15; i++){
+       var tempNum = randommizer(min,max);
+       console.log(tempNum);
+}
 
+
+//Create the random function.
+//Function call the randomizer function
+
+var results1 = randommizer(min,max);
+console.log("Your random number is "+ results1 );
+
+function randommizer(mn, mx){
+      //Generate our random number
+        var randomNum = Math.round(Math.random()*(mx - mn)+min);
+        console.log(randomNum);
+        //Return the random number to our main code
+        return randomNum;
+}
