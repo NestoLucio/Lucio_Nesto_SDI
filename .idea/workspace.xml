@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ede266bf-6e8e-4575-a348-71d6ea126519" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 9/js/day_9_anom.js" afterPath="$PROJECT_DIR$/Day 9/js/day_9_anom.js" />
-    </list>
+    <list default="true" id="ede266bf-6e8e-4575-a348-71d6ea126519" name="Default" comment="" />
     <ignored path="Lucio_Nesto_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,11 +51,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="day_9_anom.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="day_9_anom.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day 9/js/day_9_anom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7323689">
-              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+            <state vertical-scroll-proportion="-15.0">
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day9_mulitiple.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day 9/js/day9_mulitiple.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.20689656">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day9_mulitiple.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day 9/day9_mulitiple.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.25">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -100,8 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Day3/js/Day3_casting.js" />
-        <option value="$PROJECT_DIR$/Lucio_Nesto_Expressions_Assignment/js/expressions.js" />
         <option value="$PROJECT_DIR$/Day4/day4.html" />
         <option value="$PROJECT_DIR$/Day4/js/day4_conditionals.js" />
         <option value="$PROJECT_DIR$/Day4/js/Day4_Logical.js" />
@@ -151,6 +169,8 @@
         <option value="$PROJECT_DIR$/Day 9/js/day_9_Procedures.js" />
         <option value="$PROJECT_DIR$/Day 9/day_9_anom.html" />
         <option value="$PROJECT_DIR$/Day 9/js/day_9_anom.js" />
+        <option value="$PROJECT_DIR$/Day 9/day9_mulitiple.html" />
+        <option value="$PROJECT_DIR$/Day 9/js/day9_mulitiple.js" />
       </list>
     </option>
   </component>
@@ -355,20 +375,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day3/js/day3_promps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day3/js/Day3_casting.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day3/js/day3_arrays.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6561605">
@@ -722,9 +728,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day 9/js/day_9_anom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7323689">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        <state vertical-scroll-proportion="-15.0">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 9/day9_mulitiple.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 9/js/day9_mulitiple.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20689656">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
