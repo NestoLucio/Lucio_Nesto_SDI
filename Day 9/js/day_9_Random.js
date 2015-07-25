@@ -42,15 +42,27 @@ max=Number(max);
 //Test to check values of Max na Min
 console.log("The min value is " +min+ " The Max value is " + max);
 
-//15 random nunbers to print
+//15 random numbers between 10 and 20 to print
+//Function call the randomizer function
+//What is the sum of the random numbers.
+//Create a blank area to hold the values.
+var randomArray= [];
+
+var total = 0;
 for (var i = 0; i<15; i++){
-       var tempNum = randommizer(min,max);
+       var tempNum = randommizer(10,20);
+       randomArray[i] = tempNum;
        console.log(tempNum);
+       total +=tempNum;
 }
+//Console.log total/
+console.log(randomArray);
+console.log("The total of 15 random nubers is " + total);
 
 
 //Create the random function.
-//Function call the randomizer function
+
+
 
 var results1 = randommizer(min,max);
 console.log("Your random number is "+ results1 );
@@ -58,7 +70,7 @@ console.log("Your random number is "+ results1 );
 function randommizer(mn, mx){
       //Generate our random number
         var randomNum = Math.round(Math.random()*(mx - mn)+min);
-        console.log(randomNum);
+        //console.log(randomNum);
         //Return the random number to our main code
         return randomNum;
 }
