@@ -55,8 +55,8 @@ var userTrapInfo = function (b1, b2, h){
        return userInfo;
 };
 
-var derf = userTrapInfo(userBase1, userBase2, userHeight);
-console.log("The Base1 is" + derf[0] + " The Base2 is " + derf[1] + " The Height is " + derf[2]);
+var userLogInfo = userTrapInfo(userBase1, userBase2, userHeight);
+console.log("The Base1 is" + userLogInfo[0] + " The Base2 is " + userLogInfo[1] + " The Height is " + userLogInfo[2]);
 
 
 
