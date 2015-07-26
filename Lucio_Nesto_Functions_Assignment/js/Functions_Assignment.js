@@ -48,9 +48,15 @@ while(isNaN(userBase2) || userBase2 ==="") {
 //Test vaiable
 console.log("The second base of your trapezoid is " + userBase2);
 
+//Create anom variable that console.logs user input information
 
+var userTrapInfo = function (b1, b2, h){
+       var userInfo = [b1, b2, h];
+       return userInfo;
+};
 
-
+var derf = userTrapInfo(userBase1, userBase2, userHeight);
+console.log("The Base1 is" + derf[0] + " The Base2 is " + derf[1] + " The Height is " + derf[2]);
 
 
 
