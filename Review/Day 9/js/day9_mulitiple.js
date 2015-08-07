@@ -21,7 +21,7 @@ var resultsArea = calcArea(height,width);
 console.log(resultsArea);
 
 
-//Create a anom function to calculate the perimeter of rectangle.
+//Create a function to calculate the perimeter of rectangle.
 var calcPeri = function (h, w){
       var periTotal = 2*h+2*w;
       return periTotal;
